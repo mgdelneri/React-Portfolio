@@ -1,11 +1,18 @@
 import './style.css';
-import { Link } from 'react-router-dom';
-import React from 'react';
+import Navigation from '../Navigation';
 
 const Home = () => {
     return (
-        <div>
-            Home Component
+        <div className="home">
+            <div className="title">
+                <header>
+                    <h1>Marina Delneri</h1>
+                    <h2>mgdelneri</h2>
+                </header>
+                <nav>
+                    <Navigation />
+                </nav>
+            </div>
         </div>
     )
 };
