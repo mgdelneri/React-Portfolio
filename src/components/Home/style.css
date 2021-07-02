@@ -1,3 +1,17 @@
 .title {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: xx-large;
+    background-color: rgb(105, 64, 134);
+    color: ivory;
+    margin: 10px;
+    border-radius: 40px;
+    margin: 40px;
 }
+
+#myphoto {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+

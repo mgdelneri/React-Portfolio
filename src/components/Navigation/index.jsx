@@ -1,18 +1,19 @@
+import './style.css';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <div>
-            <Link className="aboutLink" to="about">
+        <div className="navbar">
+            <Link className="aboutLink link" to="about">
                 About
             </Link>
-            <Link className="workLink" to="work">
+            <Link className="workLink link" to="work">
                 Work
             </Link>
-            <Link className="contactLink" to="contact">
+            <Link className="contactLink link" to="contact">
                 Contact Me
             </Link>
-            <Link className="resumeLink" to="resume">
+            <Link className="resumeLink link" to="resume">
                 Résumé
             </Link>
         </div>

@@ -1,17 +1,14 @@
 import './style.css';
 import Navigation from '../Navigation';
+import Header from '../Header';
 
 const Home = () => {
     return (
         <div className="home">
             <div className="title">
-                <header>
-                    <h1>Marina Delneri</h1>
-                    <h2>mgdelneri</h2>
-                </header>
-                <nav>
-                    <Navigation />
-                </nav>
+                <Header />
+                <Navigation />
+                <img src={`{process.env.PUBLIC_URL}/1610386138656.jpeg`} alt="Marina Delneri" id="myphoto"/>
             </div>
         </div>
     )
