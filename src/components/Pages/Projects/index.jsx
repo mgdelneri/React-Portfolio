@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div className="projectsPage">
         <h1>Projects</h1>
-        <div>
+        <div className="projects">
         {projects.map((project) => {
             return <Project project={project} />;
         })}

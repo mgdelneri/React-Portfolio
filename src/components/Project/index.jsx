@@ -2,14 +2,14 @@ import "./style.css";
 
 const Project = (props) => {
   return (
-    <div>
-      <div class="boxes">
+    <main>
+      <div className="boxes">
           <div
-            class="webpages"
+            className="webpages"
             id={props.project.id}
-            onclick={`location.href='${props.project.projectLink}'`}
+            onClick={`location.href='${props.project.projectLink}'`}
           ></div>
-          <h3 class="project-name">
+          <h3 className="projectName">
             <a
               href={props.project.projectLink}
               target="_blank"
@@ -18,7 +18,7 @@ const Project = (props) => {
             {props.project.projectTitle}
             </a>
           </h3>
-          <h3 class="github-link">
+          <h3 className="githubLink">
             <a
               href={props.project.githubLink}
               target="_blank"
@@ -28,7 +28,7 @@ const Project = (props) => {
             </a>
           </h3>
       </div>
-    </div>
+    </main>
   );
 };
 
