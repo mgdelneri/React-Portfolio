@@ -1,23 +1,23 @@
-import './style.css';
-import { Link } from 'react-router-dom';
+import "./style.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
-    return (
-        <div className="navbar">
-            <Link className="aboutLink link" to="about">
-                About
-            </Link>
-            <Link className="workLink link" to="work">
-                Work
-            </Link>
-            <Link className="contactLink link" to="contact">
-                Contact Me
-            </Link>
-            <Link className="resumeLink link" to="resume">
-                Résumé
-            </Link>
-        </div>
-    )
+  return (
+    <div className="navbar">
+      <Link className="aboutLink link" to="about">
+        About
+      </Link>
+      <Link className="projectsLink link" to="projects">
+        Projects
+      </Link>
+      <Link className="contactLink link" to="contact">
+        Contact Me
+      </Link>
+      <Link className="resumeLink link" to="resume">
+        Résumé
+      </Link>
+    </div>
+  );
 };
 
 export default Navigation;

@@ -1,0 +1,51 @@
+.github-link {
+    margin: 0;
+    text-align: center;
+}
+
+.github-link a {
+    color: rgb(235, 192, 176);
+    padding-top: 5px;
+}
+
+.github-link a:hover {
+    color: var(--banner-color);
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.webpages {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 1000px;
+    height: 600px;
+    background-image: var(--smallbox-gradient);
+    border: 8px solid var(--banner-color);
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.project-name {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.project-name a {
+    color: rgb(235, 192, 176);
+    font-size: larger
+}
+
+#smallbox1 {
+    background-image: url(/src/assets/screencapture-file-Users-Marina-Desktop-homework-coding-Code-Quiz-index-html-2021-03-08-14_05_44.png);
+    background-size: cover;
+    background-position: center;
+}
