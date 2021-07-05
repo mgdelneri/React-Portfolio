@@ -1,6 +1,5 @@
 .title {
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 30px;
     font-size: xx-large;
     background-color: rgb(105, 64, 134);
@@ -11,7 +10,9 @@
 }
 
 #myphoto {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 5px solid ivory; 
+    border-radius: 20px;
 }
 

@@ -13,3 +13,7 @@
     font-size: x-large;
     color: ivory;
 }
+
+.link:hover {
+    color: rgb(62, 61, 61);
+}

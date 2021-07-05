@@ -16,6 +16,9 @@ const Navigation = () => {
       <Link className="resumeLink link" to="resume">
         Résumé
       </Link>
+      <Link className="homeLink link" to="/">
+        Home
+      </Link>
     </div>
   );
 };
