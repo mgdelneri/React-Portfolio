@@ -1,0 +1,25 @@
+.resumeHeader {
+    padding-bottom: 20px;
+}
+
+.resume {
+    text-align: center;
+}
+
+#resumeNavbar {
+    padding-bottom: 30px;
+}
+
+.cvLink {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(11, 53, 50);
+    font-weight: bold;
+    border: 4px groove rgb(8, 85, 80);
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.cvLink:hover {
+    color: ivory;
+}
