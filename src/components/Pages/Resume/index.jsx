@@ -1,5 +1,6 @@
 import "./style.css";
 import Navigation from "../../Navigation";
+import Footer from "../../Footer";
 import pdf from "../../../assets/Coding_Resume.pdf";
 
 const Resume = () => {
@@ -16,6 +17,7 @@ const Resume = () => {
       >
         Download Marina Delneri's Résumé
       </a>
+      <Footer />
     </div>
   );
 };
