@@ -2,6 +2,12 @@
     padding-bottom: 20px;
 }
 
+article {
+    border: 5px dashed rgb(105, 64, 134);
+    margin: 30px;
+    border-radius: 15px;
+}
+
 article p {
     text-align: center;
     margin: 20px;

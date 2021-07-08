@@ -1,6 +1,7 @@
 import "./style.css";
 import Project from "../../Project";
 import Navigation from "../../Navigation";
+import Footer from "../../Footer";
 import React, { useState } from "react";
 
 const Projects = () => {
@@ -64,6 +65,7 @@ const Projects = () => {
             return <Project project={project} />;
         })}
         </div>
+        <Footer />
     </div>
   );
 };

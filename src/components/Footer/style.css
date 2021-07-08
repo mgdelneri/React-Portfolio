@@ -1,0 +1,22 @@
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.contactInfo a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(67, 66, 66);
+    font-weight: bold;
+    padding: 8px;
+}
+
+.contactInfo a:hover {
+    color: ivory;
+}

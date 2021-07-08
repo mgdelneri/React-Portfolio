@@ -1,5 +1,6 @@
 import "./style.css";
 import Navigation from '../../Navigation';
+import Footer from "../../Footer";
 
 const About = () => {
   return (
@@ -36,6 +37,7 @@ const About = () => {
           renewable resources.
         </p>
       </article>
+      <Footer />
     </div>
   );
 };
