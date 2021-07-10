@@ -1,6 +1,8 @@
 import "./style.css";
+import React, { useState } from "react";
 import Navigation from "../../Navigation";
 import Footer from "../../Footer";
+import { validateEmail } from "../../../utils/helpers";
 
 const Contact = () => {
   return (
