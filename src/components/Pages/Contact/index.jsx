@@ -53,7 +53,7 @@ const Contact = () => {
       <h1 id="contactMe">Contact Me</h1>
       <Navigation />
       <form id="contactForm">
-        <div id="formName">
+        <div className="formItem" id="formName">
           <label htmlFor="Name">Name:</label>
           <br></br>
           <input
@@ -63,7 +63,7 @@ const Contact = () => {
             name="Name"
           />
         </div>
-        <div id="formEmail">
+        <div className="formItem" id="formEmail">
           <label htmlFor="email">Email:</label>
           <br></br>
           <input 
@@ -73,7 +73,7 @@ const Contact = () => {
             name="email"
           />
         </div>
-        <div id="formMessage">
+        <div className="formItem" id="formMessage">
           <label htmlFor="Message">Message:</label>
           <br></br>
           <textarea
