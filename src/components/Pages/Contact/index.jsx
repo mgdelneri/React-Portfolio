@@ -52,7 +52,44 @@ const Contact = () => {
     <div>
       <h1 id="contactMe">Contact Me</h1>
       <Navigation />
-
+      <form id="contactForm">
+        <div id="formName">
+          <label htmlFor="Name">Name:</label>
+          <br></br>
+          <input
+            type="text"
+            defaultValue={name}
+            onBlur={handleBlank}
+            name="Name"
+          />
+        </div>
+        <div id="formEmail">
+          <label htmlFor="email">Email:</label>
+          <br></br>
+          <input 
+            type="email"
+            defaultValue={email}
+            onBlur={handleChange}
+            name="email"
+          />
+        </div>
+        <div id="formMessage">
+          <label htmlFor="Message">Message:</label>
+          <br></br>
+          <textarea
+            name="Message"
+            defaultValue={message}
+            onBlur={handleBlank}
+            rows="6"
+          />
+        </div>
+        {errorMessage && (
+          <div>
+            <p className="errorText">{errorMessage}</p>
+          </div>
+        )}
+        <button type="submit">Submit</button>
+      </form>
       <Footer />
     </div>
   );
