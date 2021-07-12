@@ -23,3 +23,29 @@
 .cvLink:hover {
     color: ivory;
 }
+
+.tech {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(62, 61, 61);
+}
+
+#frontEnd,
+#backEnd {
+    border: 6px solid rgb(105, 64, 134);
+    padding: 10px;
+    border-radius: 10px;
+}
