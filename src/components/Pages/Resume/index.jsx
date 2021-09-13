@@ -1,7 +1,7 @@
 import "./style.css";
 import Navigation from "../../Navigation";
 import Footer from "../../Footer";
-import pdf from "../../../assets/Coding_Resume.pdf";
+import pdf from "../../../assets/Coding_Resume_One_Page_09_2021.pdf";
 
 const Resume = () => {
   return (
