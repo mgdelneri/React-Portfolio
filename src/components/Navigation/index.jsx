@@ -8,7 +8,7 @@ const Navigation = () => {
         About
       </Link>
       <Link className="projectsLink link" to="projects">
-        Portfolio
+        Projects
       </Link>
       <Link className="contactLink link" to="contact">
         Contact Me
