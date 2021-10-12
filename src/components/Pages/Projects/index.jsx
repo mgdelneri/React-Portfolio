@@ -11,6 +11,7 @@ const Projects = () => {
       projectTitle: "National Parks Finder",
       projectLink: "https://mgdelneri.github.io/National-Parks-and-Forecast-Finder/",
       githubLink: "https://github.com/mgdelneri/National-Parks-and-Forecast-Finder.git",
+      description: "An application that allows user to search by US state abbreviations and get back a list of that state's national parks and the 5-day forecast at each location. Technologies used: HTML, CSS, JavaScript, National Park Service API, Open Weather API.",
     },
     {
       id: "box2",
@@ -58,7 +59,7 @@ const Projects = () => {
 
   return (
     <div className="projectsPage">
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         <Navigation />
         <div className="projects">
         {projects.map((project) => {

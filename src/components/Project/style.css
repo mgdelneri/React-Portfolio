@@ -59,6 +59,12 @@ main h2 {
     text-decoration: none;
 }
 
+.description {
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(233, 177, 156);
+}
+
 #box1 {
     background-image: url(/src/assets/screencapture-file-Users-Marina-Desktop-Coding-Group-Projects-National-Parks-and-Forecast-Finder-National-Parks-and-Forecast-Finder-index-html-2021-03-29-12_35_20.png);
     background-size: cover;
