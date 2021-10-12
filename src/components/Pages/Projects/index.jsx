@@ -46,7 +46,7 @@ const Projects = () => {
       projectTitle: "Code Quiz",
       projectLink: "https://mgdelneri.github.io/Code-Quiz/",
       githubLink: "https://github.com/mgdelneri/Code-Quiz.git",
-      description: "This application is a timed multiple-choice code-themed quiz that saves the code taker's score. Technologies used: HTML, CSS, JavaSCript.",
+      description: "This application is a timed multiple-choice code-themed quiz that saves the quiz taker's score. Technologies used: HTML, CSS, JavaSCript.",
     },
     {
       id: "box7",
