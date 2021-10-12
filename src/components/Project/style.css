@@ -23,7 +23,7 @@ main h2 {
 
 .githubLink a:hover,
 .projectName a:hover {
-    color: rgb(105, 64, 134);
+    color: rgb(67, 66, 66);
 }
 
 .boxes {
@@ -63,8 +63,8 @@ main h2 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 17%;
+    margin-right: 17%;
     color: rgb(67, 66, 66);
     font-size: x-large;
 }
