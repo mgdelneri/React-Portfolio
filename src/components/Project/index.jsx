@@ -27,9 +27,9 @@ const Project = (props) => {
               GitHub Link
             </a>
           </h3>
-          <h3 className="description">
+          <h4 className="description">
               {props.project.description}
-          </h3>
+          </h4>
       </div>
     </main>
   );

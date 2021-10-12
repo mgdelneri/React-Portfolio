@@ -61,8 +61,11 @@ main h2 {
 
 .description {
     text-align: center;
+    margin-top: 8px;
     margin-bottom: 5px;
-    color: rgb(233, 177, 156);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(105, 64, 134);
 }
 
 #box1 {
